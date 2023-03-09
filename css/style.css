@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* misure generiche */
+.margin0Auto{margin: 0 auto;}
+.w100{width: 100%;}
+.w90{width: 90%;}
+/* .margintop{margin-top: ;} */
+
+/* display */
+.displayFlex{display: flex;}
+.flexRow{flex-direction: row;}
+.j-Space-BT{justify-content:space-between;}
+.wrap{flex-wrap: wrap;}
+.alignCenter{align-items: center;}
+/* .space{align-content: center;} */
+.vh100{height:calc(100vh - 125px);}
+/* position */
+.relative{position: relative;}
+.absolute{position: absolute;}
+
+.imgBox{
+    width: 200px;
+    height: 125px;
+    background-color: aqua;
+}
+
