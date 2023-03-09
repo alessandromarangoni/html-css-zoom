@@ -18,8 +18,9 @@
 .j-End{justify-content: end;}
 .wrap{flex-wrap: wrap;}
 .alignCenter{align-items: center;}
+.flexColumn{flex-direction: column;}
 /* .space{align-content: center;} */
-.vh100{height:calc(100vh - 125px);}
+.vh100{height:calc(100vh - 120px);}
 /* position */
 .relative{position: relative;}
 .absolute{position: absolute;}
@@ -32,7 +33,7 @@
     padding-top: 10px;
 }
 
-header span,i{
+header span, header i{
     color: white;
     font-size: 18px;
     background-color: #4b4b4b;
@@ -48,7 +49,6 @@ header i:last-child{
 .imgBox{
     width: 200px;
     height: 125px;
-    background-color: aqua;
 }
 .boxName{
     padding: .2em;
@@ -57,4 +57,41 @@ header i:last-child{
     bottom: 2%;
     color: white;
     font-size: 18px;
+}
+
+.footerContainer{
+    flex-wrap: nowrap;
+    height:80px;
+    background-color: #222222;
+}
+
+.footerAction{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.bigger{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.marginfoot{
+    /* margin-left: 20px; */
+    margin-right: 20px;
+}
+
+footer button{
+height: 80px;
+padding:0 20px ;
+font-size: large;
+color: red;
+background-color: #4b4b4b;
+border: 0;
+}
+
+footer i{
+    color: white;
 }
