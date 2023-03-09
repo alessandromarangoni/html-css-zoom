@@ -26,4 +26,12 @@
     height: 125px;
     background-color: aqua;
 }
+.boxName{
+    padding: .2em;
+    background-color: rgba(0, 0, 0, 0.381);
+    left: 0;
+    bottom: 2%;
+    color: white;
+    font-size: 18px;
+}
 
